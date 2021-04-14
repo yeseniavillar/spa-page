@@ -1,0 +1,214 @@
+body{
+    background-color:#f8f8f8;
+}
+.encabezado{
+    font-size: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    line-height: 3.2rem;
+}
+.encabezado span{
+    font-size:3.8rem;
+    font-family: 'Italianno', cursive;
+    color: #e082a8 ;
+}
+/** Sociales **/
+.sociales ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+.sociales ul li a[href*="facebook.com"]::before{
+    content: '\f230';
+}
+.sociales ul li a[href*="twitter.com"]::before{
+    content: '\f081';
+}
+.sociales ul li a[href*="instagram.com"]::before{
+    content: '\f16d';
+}
+.sociales ul li a[href*="pinterest.com"]::before{
+    content: '\f0d2';
+}
+.sociales ul li a[href*="youtube.com"]::before{
+    content: '\f16a';
+}
+/********* Navegacion********/
+.navegacion{
+    background-color:#8ed3cc;
+
+}
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
+
+#slogan {
+ color: #ffffff;
+
+}
+#slogan:hover{
+    color:#e082a8 ;
+}
+
+.nav-principal{
+    background-image: url(../imagen/border_horizontal.png),
+                      url(../imagen/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition:background-color .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+
+}
+.nav-link:hover{
+    background-color:rgb(92, 221, 221);
+    color: #66052d;
+}
+  /*********Carousel******************/  
+  .carousel-caption h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+
+  }
+  /********Section*******/
+  .nuevo-sitio p{
+    font-family: 'Quicksand', sans-serif;
+    color:#979797;
+    font-size: 1.4rem;
+
+  }
+
+/********Targetas*******/
+.imagen-servicio img{
+    border: 6px solid #ffffff;
+    
+}
+.imagen-servicio img:hover{
+    transform: scale(1.1);
+}
+.servicio-info{
+    background-color: #ffffff;
+    margin-top: -4rem;
+}
+.botones{
+    border-radius: 0;
+    background-color: #e082a8;
+    border: none;
+
+}
+/********** Stilo a la tabla******* */
+.horario {
+    background-color:#8ed3cc ;
+    color: #ffffff;
+}
+
+
+.horario h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.2rem;
+
+}
+.horario table{
+    border: 2px solid #e082a8;
+
+}
+.horario table thead{
+    background-color: #e082a8;
+    color: #ffffff;  
+
+}
+.horario table tbody tr td {
+    padding: .35rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.bg-horario{
+    background-image: url(../imagen/bg_horarios.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+}
+/********** Stilo a la secion productos******* */
+.productos .card{
+    border: none;
+}
+.productos .card a{
+    color: black;
+}
+.productos .card a:hover{
+    text-decoration:none;
+}
+.productos .card h3{
+    color: #e082a8;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.productos .card p{
+    font-size: .8rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.productos .card .precio{
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #979797;
+
+
+}
+/********** Stilo a la secion citas******* */
+.citas{
+    background-image: url(../imagen/bg_citas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+    
+}
+@media (min-width: 992px) {
+    .citas{
+        background-size:cover;
+
+    }
+}
+.citas h3{
+    font-size: 2.4rem;
+    font-family: 'Quicksand', sans-serif;  
+}
+.citas p{
+    font-size: 1.2rem;
+    line-height:2.6rem;
+
+}
+.citas .btn-primary {
+    background-color:#8ed3cc ;
+    border: 0;
+    padding: 1rem 5rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;  
+}
+/********** Stilo a el footer******* */
+.copyright{
+    color: #979797;
+}
